@@ -1,0 +1,13 @@
+// this policy file should only be used for testing and not deployed
+grant {
+    permission java.net.SocketPermission "*:1024-","accept, connect, listen, resolve";
+    permission java.net.SocketPermission "*:80","accept, connect, listen, resolve";
+//  permission java.net.SocketPermission "*:443","accept, connect, listen, resolve";
+    permission java.io.filePermission "/tmp/*", "read, write, delete, execute";
+    permission java.io.filePermission "/image/*", "read, write, delete, execute";
+    permission java.io.filePermission "/work/-", "read, write, delete, execute";
+    permission java.io.filePermission "/var/www/*", "read, execute";
+    permission java.io.filePermission "/var/www/htdocs/rmi/unilib/*", "read, execute";
+    permission java.io.filePermission "/var/www/htdocs/rmi/-", "read, execute";
+/////    permission java.security.AllPermission;
+};

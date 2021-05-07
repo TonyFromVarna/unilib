@@ -1,0 +1,5 @@
+#!/bin/bash
+export JAVA_HOME=/opt/jdk1.5.0_06
+export CLASSPATH=$JAVA_HOME:./mysql-connector-java-5.0.6-bin.jar:./postgresql-8.2-506.jdbc4.jar:./rmiunilib.jar:./libServer.jar:.
+###
+$JAVA_HOME/bin/java -Djava.rmi.server.codebase=http://hostserver/webpath/libServer.jar libserver.Main 

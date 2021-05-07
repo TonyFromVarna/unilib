@@ -1,0 +1,337 @@
+body {
+      background: #fce096 url(image/bg.jpg) no-repeat;
+      margin: 0; padding: 0; 
+      background-position: 10px 10px;   
+}
+
+#hg { height: 84px; }
+html>/**/body #hg { height: 68px; } /*  Mozilla and Opera not IE7 */
+
+/* background na index.html i regform.html */
+.login {
+        background: #fce096 url(image/bg_login.jpg) no-repeat;
+        margin: 0; padding: 0; 
+        background-position: 10px 10px;   
+}
+/* background na index.html */
+
+
+/* background v result.html */
+.result { background: #fce095 url("image/result.jpg") no-repeat; background-position: 10px 10px; }
+/* background v result.html */
+
+.non { background: #e0d1ac url("image/non.png") no-repeat;  }
+* html .non { background: #dccca4 url("image/non.png") no-repeat;  } /* only IE5, IE6 */
+.non p { font: bold 20px Verdana; color: #545351; padding: 400px 0 0 170px; }
+
+/* Menu */
+ul#topnav
+{
+  width:405px;
+  height:25px;
+  list-style:none;
+  margin-left: 389px;
+  padding: 0;
+}
+ul#topnav li
+{
+  float:left;
+  display:block;
+  
+  
+}
+ul#topnav li.home a
+{
+  display:block;
+  width:115px;
+  height:25px;
+  text-decoration:none;
+  background: url(image/home.png) no-repeat;
+
+}
+ul#topnav li.home a:hover
+{
+  background:url(image/home_over.png) no-repeat;
+}
+
+ul#topnav li.search a
+{
+  display:block;
+  width:115px;
+  height:25px;
+  text-decoration:none;
+  background: url(image/search.png) no-repeat;
+}
+ul#topnav li.search a:hover
+{
+  background: url(image/search_over.png) no-repeat;
+}
+
+.search_sel
+{
+  width:115px;
+  height: 25px;
+  background: url(image/search_over.png) no-repeat;
+}
+
+
+ul#topnav li.adsearch a
+{
+  display:block;
+  width:166px;
+  height:25px;
+  text-decoration:none;
+  background: url(image/adsearch.png) no-repeat;
+}
+ul#topnav li.adsearch a:hover
+{
+  background: url(image/adsearch_over.png) no-repeat;
+}
+
+.adsearch_sel
+{
+  width:166px;
+  height: 25px;
+  background: url(image/adsearch_over.png) no-repeat;
+}
+
+ul#topnav li.status a
+{
+  display:block;
+  width:124px;
+  height:25px;
+  text-decoration:none;
+  background: url(image/status.png) no-repeat;
+}
+ul#topnav li.status a:hover
+{
+  background: url(image/status_over.png) no-repeat;
+}
+
+.status_sel
+{
+  width:124px;
+  height: 25px;
+  background: url(image/status_over.png) no-repeat;
+}
+/* Menu */
+
+
+/* Buttons */
+
+/* Login button */
+.butLogin { 
+     margin-top: 35px;
+     margin-left: 143px;
+     }
+/* Login button */  
+
+
+/* Submit button v regform.htm */
+.butsubmit  { 
+     margin-top: 40px; 
+     margin-left: 140px;
+     }
+/* Submit button v regform.htm */
+
+
+/* Seach button */
+.button {
+     margin-top: 55px;
+     display: block;
+}
+/* Seach button */
+
+
+/* Clear button */
+.clear {
+     background : url(image/clear.png); width:130px; height:36px;
+     margin-top: 55px;
+     border: none;
+     cursor: pointer;
+}
+
+/* Clear button */ 
+
+
+/* back button v result.html */
+.backbutton a { float: left; background: url("image/back.png") no-repeat; width: 130px; height: 36px; display: block; margin: 0; padding: 0; }
+.backbutton a:hover { background: url("image/back_over.png") no-repeat; }
+/* back button v result.html */
+
+
+/* Buttons */
+
+
+/* Media Types v adsearch.html */
+.admedia	{
+         padding-top: 50px;
+         padding-left: 50px; 
+         color: #575556;
+         font: 16px Arial;
+         font-weight: bold;
+}
+/* Media Types v adsearch.html */
+
+
+
+/* check box v adsearch.html */
+.books {
+        padding-left: 70px; 
+        padding-top: 15px;
+        color: #575556;
+        font: 14px Arial;
+}
+
+.journal {
+        padding-top: 15px;
+        color: #575556;
+        font: 14px Arial;
+}
+/* check box v adsearch.html */
+
+
+/* dava razmera na input poleto v search.html */
+.spole { width: 360px; }
+/* dava razmera na input poleto v search.html */
+
+
+/* dava razmera na input poleto v adsearch.html */
+.box  { width: 260px; margin-top: 5px; }
+/* dava razmera na input poleto v adsearch.html */
+
+/* dava razmera na checkbox v adsearch.html */
+html>/**/body .markbox { width: 20px !important; height: 20px !important; vertical-align: middle; }   /*  Mozilla and Opera not IE7 */
+/* dava razmera na checkbox v adsearch.html */
+
+
+/* nadpisa registration v index.html */
+.reg { padding-top: 50px; }
+.reg a { font: 12px Verdana; font-weight: bold; color: #545351; text-decoration: none; }
+.reg a:hover { font: 12px Verdana; font-weight: bold; color: #545351; text-decoration: underline; }
+/* nadpisa registration v index.html */
+
+
+/* Search the library - nadpis */
+.library {
+          padding: 10px 0 15px 16px;
+          color: #575556;
+          font: 16px Arial;
+          font-weight: bold;
+}
+* html .library { padding: 7px 0 15px 10px; } /* only IE5, IE6 */
+html:first-child .library { padding: 26px 0 16px 15px; } /* only Opera */
+/* Search the library */
+
+
+/* Login - nadpis v index.html */
+.logo { 
+     background: url(image/logo_login.png) no-repeat;
+     background-position: 15px 4px;
+     width: 81px;
+     height: 42px;
+     display: block;
+     }
+/* Login - nadpis v index.html */
+
+
+/* poletata v index.html i regform.htm */
+.name  { width: 300px; font: 12px Verdana; color: #545351; text-align: right; }
+/* poletata v index.html i regform.htm */
+
+/* dava sviat na * v regform.htm */
+.sor { color:#545351; }
+/* dava sviat na * v regform.htm */
+
+
+/* Registration Form - nadpis */   
+.form { 
+     background: url(image/form.png) no-repeat;
+     background-position: 15px 4px;
+     width: 212px;
+     height: 37px;
+     display: block;
+     }
+/* Registration Form - nadpis */   
+
+
+/* Advanced Search - nadpis */
+.adlibrary {
+          padding: 7px 0 15px 39px;
+          color: #575556;
+          font: 16px Arial;
+          font-weight: bold;
+}
+* html .adlibrary { padding: 4px 0 15px 44px; } /* only IE5, IE6 */
+html:first-child .adlibrary { padding: 23px 0 16px 46px; } /* only Opera */
+/* Advanced Search */
+
+/* font in result.html */
+.back { float: left; padding-left: 50px; }
+.back a { font: italic bold 14px Verdana; color: #5a5655 ; text-decoration: none; }
+.back a:hover { font: italic bold 14px Verdana; color: #5a5655; text-decoration: underline; }
+/* font in result.html */
+
+/* font in worng login */
+.wrong { padding: 140px 0 0 450px; width: 300px; }
+.wrong p { font: italic  14px Verdana; color: #5a5655 ; }
+.wrong a { font: italic bold 14px Verdana; color: #5a5655 ; text-decoration: none; }
+.wrong a:hover { font: italic bold 14px Verdana; color: #5a5655; text-decoration: underline; }
+/* font in worng login */
+
+
+/* Text v adsearch.html */
+.column { padding-right: 40px; color: #575556; font: 14px Arial; }
+/* Text v adsearch.html */
+
+
+/* dava shirinata na input poletata v index.html */
+.user { width: 184px; margin-top: 10px; }
+/* dava shirinata na input poletata v index.html */
+
+
+/* logout */
+.logtext { float: right; padding: 20px 96px 10px 4px;  }
+.logtext a { font: italic bold 14px Verdana; color: #5a5655 ; text-decoration: none; }
+.logtext a:hover { font: italic bold 14px Verdana; color: #5a5655; text-decoration: underline; }
+
+.logout { float: right; padding: 20px 83px 10px 14px; }
+* html .logout { padding: 20px 58px 10px 38px; } /* only IE5, IE6 */
+.logout a {  width: 30px; font: italic bold 14px Verdana; color: #5a5655 ; text-decoration: none; }
+.logout a:hover { font: italic bold 14px Verdana; color: #5a5655; text-decoration: underline; }
+
+.logsearch { float: right; padding: 20px 130px 10px 0px; }
+.logsearch a {  width: 30px; font: italic bold 14px Verdana; color: #5a5655 ; text-decoration: none; }
+.logsearch a:hover { font: italic bold 14px Verdana; color: #5a5655; text-decoration: underline; }
+/* logout */
+
+
+/* result.html */
+.maintable { border-left: 1px solid #ffffff; border-top: 1px solid #ffffff; font: 11px Verdana;  margin: 120px 0px 40px 40px; }
+.maintable td { border-right: 1px solid #ffffff; border-bottom: 1px solid #ffffff; font: 11px Verdana; color: #585656; }
+/* result.html */
+
+/* result.html */
+.restable { border-left: 1px solid #ffffff; border-top: 1px solid #ffffff; font: 11px Verdana;  margin: 0px 0px 40px 40px; }
+.restable td { border-right: 1px solid #ffffff; border-bottom: 1px solid #ffffff; font: 11px Verdana; color: #585656; }
+/* result.html */
+
+/* zadava font v table row first v result.html */
+.maintable .titletable td { font: 11px Verdana; color: #585656; font-weight: bold; }
+/* zadava font v table row first v result.html */
+
+
+#txtBox { width: 800px; height: 410px; float: left; overflow: hidden; }
+#scrollBar { width: 15px; height: 152px; float: left; font-size: 0; }
+#slide_back { height: 384px; background: #f4f4f4; position: relative; }
+#up { height: 15px; background: url(image/up.gif) no-repeat; }
+#slide_back_button { height: 15px; width: 15px; background: url(image/round.gif) no-repeat; position: absolute; }
+#down { height: 15px; background: url(image/down.gif) no-repeat; }
+
+.number { font: 14px Verdana; color: ##5a5655; padding-left: 50px; }
+
+.ltitle { font: bold 12px Verdana; color: #5a5655; text-decoration: underline; }
+.ltitle:hover { text-decoration: none; }
+
+.brief { font: 16px Verdana; color: #585656; padding: 10px 0; }
+.info p { font: 12px Verdana; color: #585656;  }

@@ -1,0 +1,7 @@
+// this policy file should be EDITED
+grant {
+    permission java.net.SocketPermission "*:1024-","accept, connect, listen, resolve";   // RMI CONNECT
+    permission java.net.SocketPermission "*:80","accept, connect, listen, resolve";      // HTTP for download stub
+    permission java.io.filePermission "/currentDirName/-", "read, execute";              // permition to read/execute from server directory
+    
+};
